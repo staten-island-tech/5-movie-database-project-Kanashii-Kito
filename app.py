@@ -55,17 +55,16 @@ data = json.load(movies)
 
 
 # File Six
-for index, item in enumerate(data):
-    print(index, ":", item["genres"])
-Choice_Input = (input ("Search:  "))
-Counter = 0
-for i in data:
-    if Choice_Input.lower() in i['genres'].lower():
-        print(i["title"])
-        Counter += 1
-if Counter == 0:
-    print ("Sorry but not matches were found with that word.")
+
+# for index, item in enumerate(data):
+#     print(index, ":", item["genres"])
 
 
-
-    
+# Choice_Input = (input ("Search:  "))
+# Counter = 0
+# for i in data:
+#     if Choice_Input.capitalize() in i['genres']:
+#         print(i["title"])
+#         Counter += 1
+# if Counter == 0:
+#     print ("Sorry but not matches were found with that word.")
